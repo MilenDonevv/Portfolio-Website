@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require("cors");
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
-const { error } = require('console');
 require('dotenv').config();
 
 
