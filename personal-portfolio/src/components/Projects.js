@@ -1,6 +1,8 @@
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import project_1_img from "../assets/img/project_1_img.png";
 import project_2_img from "../assets/img/project_2_img.png";
+import { ProjectCard } from "./ProjectCard";
+import color_sharp2 from "../assets/img/color_sharp2.png";
 
 export const Projects = () => {
   const projects = [
@@ -44,7 +46,11 @@ export const Projects = () => {
             <h2>Projects</h2>
             <p>Lorem Ipsum alaba bala some description za proektite</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="advanced">
-              <Nav variant="pills" defaultActiveKey="/home">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
                 <Nav.Item>
                   <Nav.Link eventKey="basic">Basic</Nav.Link>
                 </Nav.Item>
@@ -55,25 +61,34 @@ export const Projects = () => {
                   <Nav.Link eventKey="advanced">Advanced</Nav.Link>
                 </Nav.Item>
               </Nav>
-            </Tab.Container>
-            <Tab.Content>
+              <Tab.Content>
                 <Tab.Pane eventKey="basic">
-                    <Row>
-                        {
-                            projects.map((project, index) => {
-                                return (
-                                    <p>{project.title}</p>
-                                )
-                            })
-                        }
-                    </Row>
+                  <Row>
+                    {projects.map((project, index) => {
+                      return (
+                        <ProjectCard
+                          key={index}
+                          // {...project}
+                          title={project.title}
+                          description={project.description}
+                          imgUrl={project.imgUrl}
+                        />
+                      );
+                    })}
+                  </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="intermediate">Lorem Ipsum</Tab.Pane>
                 <Tab.Pane eventKey="advanced">Moren Bibsim</Tab.Pane>
-            </Tab.Content>
+              </Tab.Content>
+            </Tab.Container>
           </Col>
         </Row>
       </Container>
+      <img
+        className="background-image-right"
+        alt="background-image-right"
+        src={color_sharp2}
+      />
     </section>
   );
 };
