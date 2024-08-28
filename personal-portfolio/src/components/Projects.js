@@ -3,6 +3,8 @@ import project_1_img from "../assets/img/project_1_img.png";
 import project_2_img from "../assets/img/project_2_img.png";
 import { ProjectCard } from "./ProjectCard";
 import color_sharp2 from "../assets/img/color_sharp2.png";
+import TrackVisibility from "react-on-screen";
+import 'animate.css';
 
 export const Projects = () => {
   const projects = [
@@ -43,8 +45,13 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
+          <TrackVisibility>
+            {({ isVisible }) => 
+            <div className={isVisible ? "animate__animated animate__bounce" : ""}>
             <h2>Projects</h2>
             <p>Lorem Ipsum alaba bala some description za proektite</p>
+            </div>}
+            </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="advanced">
               <Nav
                 variant="pills"

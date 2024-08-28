@@ -3,7 +3,7 @@ import Container from "react-bootstrap/esm/Container";
 import { Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
-import "animate.css";
+import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
@@ -54,7 +54,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
             {({ isVisible }) => 
-            <div className={isVisible ? "animated__animated animate_fadeIn" : ""}>
+            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
               <span className="tagline">Welcome to my Portfolio</span>
               <h1>
                 {`Hi, Milen here! `}
