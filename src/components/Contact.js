@@ -40,7 +40,8 @@ export const Contact = () => {
       if(result.code === 200) {
         setStatus({ success: true, message: "Message sent successfully"});
       } else {
-        setStatus({ success: false, message: "Something went wrong! Please try again!"});
+        const errorResult = await response.json();
+        setStatus({ success: false, message: errorResult.message });
       }
   }
 
@@ -94,7 +95,7 @@ export const Contact = () => {
                     placeholder="Your Message"
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   />
-                  <button type="submit"><span>{buttonText}</span></button>
+                  <button type="submit" style={{ borderRadius: '10px'}}><span>{buttonText}</span></button>
                 </Col>
                 {
                     status.message && 

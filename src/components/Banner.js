@@ -9,10 +9,10 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Frontend Web Developer.", "React Enthusiast."];
+  const toRotate = ["Telerik Graduate.", "Junior Frontend Developer.", "React Enthusiast.", "Passionate learner."];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const period = 200;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -43,7 +43,7 @@ export const Banner = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(200);
     }
   };
 
@@ -61,7 +61,7 @@ export const Banner = () => {
                 <span className="wrap">{text}</span>
               </h1>
               <p>My passions are: 1. 2. 3. 4. 5.</p>
-              <button onClick={() => console.log("connect")}>
+              <button onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth'} )}>
                 Let's connect <ArrowRightCircle size={25} />
               </button>
               </div>}

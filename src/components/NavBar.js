@@ -2,10 +2,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useEffect, useState } from "react";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo.png';
 import nav_icon1 from '../assets/img/nav_icon1.svg';
-import nav_icon2 from '../assets/img/nav_icon2.svg';
-import nav_icon3 from '../assets/img/nav_icon3.svg';
+import nav_icon2 from '../assets/img/icons8-github-64.svg';
+import nav_icon3 from '../assets/img/nav_icon2.svg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -46,17 +46,17 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
-                <img src={nav_icon1} alt="" />
+              <a href="https://www.linkedin.com/in/milen-donev-00b031227/" target="_blank" rel="noopener noreferrer">
+                <img src={nav_icon1} alt="Linked-In" />
               </a>
-              <a href="#">
-                <img src={nav_icon2} alt="" />
+              <a href="https://github.com/MilenDonevv" target="_blank" rel="noopener noreferrer">
+                <img src={nav_icon2} alt="GitHub" />
               </a>
-              <a href="#">
-                <img src={nav_icon3} alt="" />
+              <a href="https://www.facebook.com/Milen.Donev95" target="_blank" rel="noopener noreferrer">
+                <img src={nav_icon3} alt="Facebook" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            <button className="vvd" onClick={() => document.getElementById('connect').scrollIntoView({behavior: 'smooth'})}>
               <span>Let's Connect</span>
             </button>
           </span>
@@ -66,6 +66,3 @@ export const NavBar = () => {
   );
 };
 
-// export default NavTabsExample;
-
-// }
