@@ -129,9 +129,11 @@ export const Projects = () => {
   const advancedProjects = [
     {
       title: "ReactVenture",
-      description: "Travel forum",
+      description: "Travel forum - like a post, then register in order to use the app",
       imgUrl: project_2_img,
-      url: ""
+      url: "https://github.com/ReactProjectA58/ReactVenture"
+      // https://react-venture-9i4mpqb1o-milen-s-projects.vercel.app/ - fix the project before displaying it
+      
     },
     {
       title: "PlanPal",
