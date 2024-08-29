@@ -39,7 +39,7 @@ export const Footer = () => {
                 <img src={nav_icon3} alt="Facebook" />
               </a>
               <a
-                href="https://www.facebook.com/Milen.Donev95"
+                href="/assets/CV_Milen_Donev.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

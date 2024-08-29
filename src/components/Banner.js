@@ -58,7 +58,7 @@ export const Banner = () => {
             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
               <span className="tagline">Welcome to my Portfolio</span>
               <h1>
-                {`My name is Milen and I am `}
+                {`My name is Milen and I am a `}
                 <span className="wrap">{text}</span>
               </h1>
               {/* <p>My passions are: 1. 2. 3. 4. 5.</p> */}
