@@ -5,6 +5,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
+import Me from '../assets/img/picture_me.png'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -60,7 +61,7 @@ export const Banner = () => {
                 {`Hi, Milen here! `}
                 <span className="wrap">{text}</span>
               </h1>
-              <p>My passions are: 1. 2. 3. 4. 5.</p>
+              {/* <p>My passions are: 1. 2. 3. 4. 5.</p> */}
               <button onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth'} )}>
                 Let's connect <ArrowRightCircle size={25} />
               </button>

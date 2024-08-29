@@ -4,6 +4,7 @@ import logo from "../assets/img/logo.png";
 import nav_icon1 from "../assets/img/nav_icon1.svg";
 import nav_icon2 from "../assets/img/icons8-github-64.svg";
 import nav_icon3 from "../assets/img/nav_icon2.svg";
+import DOWNLOAD_icon from "../assets/img/DOWNLOAD_icon.svg";
 
 export const Footer = () => {
   return (
@@ -36,6 +37,13 @@ export const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img src={nav_icon3} alt="Facebook" />
+              </a>
+              <a
+                href="https://www.facebook.com/Milen.Donev95"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={DOWNLOAD_icon} alt="Facebook" />
               </a>
             </div>
             <p>@2024 Milen Donev</p>
