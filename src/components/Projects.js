@@ -152,7 +152,7 @@ export const Projects = () => {
       title: "ReactVenture",
       description: "Travel forum - like a post, then register in order to use the app",
       imgUrl: project_2_img,
-      url: "https://https://reactprojecta58.github.io/ReactVenture/"
+      url: "https://reactprojecta58.github.io/ReactVenture/"
     },
     {
       title: "PlanPal",
@@ -163,7 +163,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="projects" id="projects">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col>

@@ -7,7 +7,7 @@ const experiences = [
     company: "Open to work",
     period: "06/2024 - currently",
     description:
-      "I am currently beyond excited to find my first position as a Frontend Developer and eager to immerse myself in a collaborative and supportive work environment, look forward to leveraging my expertise to its fullest while continuously expanding my skill set. Armed with solid fundamentals in HTML, CSS, JavaScript, and contemporary frameworks such as React, I am passionate about engaging in pioneering projects and contribute to creating captivating user experiences",
+      "I am currently beyond excited to find my first position as a Frontend Developer and eager to immerse myself in a collaborative and supportive work environment, look forward to leveraging my expertise to its fullest while continuously expanding my skill set. Armed with solid fundamentals in HTML, CSS, JavaScript, and contemporary frameworks such as React, I am passionate about engaging in pioneering projects and contribute to creating captivating user experiences.",
   },
   {
     company: "Telerik Academy",
@@ -38,5 +38,6 @@ const Experience = () => {
     </div>
   );
 };
+
 
 export default Experience;
