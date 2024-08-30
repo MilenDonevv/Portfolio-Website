@@ -11,12 +11,15 @@ import star_rating from '../assets/img/star_rating_icon.PNG'
 import tabs from '../assets/img/tabs_icon.PNG'
 import tic_tac_toe from '../assets/img/Tic_tac_toe_icon.PNG'
 import tree_view from '../assets/img/tree_view.PNG'
-import onclick_outside from '../assets/img/use_Onclick_outside_custom_hook_icon.PNG'
 import windows_resize from '../assets/img/use_window_resize_icon.PNG'
 import weather_app from '../assets/img/weather_app_icon.PNG'
 import expense_tracker from '../assets/img/expense_tracker_icon.PNG'
+import github_finder from '../assets/img/github_profile_finder_icon.PNG'
+import scroll_top_bottom from '../assets/img/scroll_to_top_and_bottom_icon.PNG'
+import click_outside from '../assets/img/click_outside_icon.PNG'
 import project_1_img from "../assets/img/project_1_img.png";
 import project_2_img from "../assets/img/project_2_img.png";
+import load_more from "../assets/img/load_more_products_icon.PNG";
 import { ProjectCard } from "./ProjectCard";
 import color_sharp2 from "../assets/img/color_sharp2.png";
 import TrackVisibility from "react-on-screen";
@@ -29,85 +32,103 @@ export const Projects = () => {
       title: "Accordion",
       description: "Showing and hiding different sections",
       imgUrl: accordion,
-      url: "https://accordion-81crhmgbk-milen-s-projects.vercel.app"
+      url: "https://accordion-livid-five.vercel.app"
     },
     {
       title: "Image Slider",
       description: "Previews a series of images",
       imgUrl: image_slider,
-      url: "https://image-slider-ikwxo9ovp-milen-s-projects.vercel.app/"
+      url: "https://image-slider-steel.vercel.app/"
     },
     {
       title: "Light & Dark mode",
       description: "Changes between light and dark theme",
       imgUrl: light_dark,
-      url: "https://ligh-dark-mode-nipql7u70-milen-s-projects.vercel.app/"
+      url: "https://ligh-dark-mode.vercel.app/"
     },
     {
       title: "Modal Popup",
       description: "Display a certain modal on request",
       imgUrl: modal_popup,
-      url: "https://modal-popup-kmvq2uiwr-milen-s-projects.vercel.app/"
+      url: "https://modal-popup-sigma.vercel.app/"
     },
     {
       title: "Custom Scroll Indicator",
       description: "Displays how much of the page is being scrolled",
       imgUrl: custom_scroll,
-      url: "https://scroll-indicator-bvvfzw13e-milen-s-projects.vercel.app/"
+      url: "https://scroll-indicator-delta.vercel.app/"
     },
     {
       title: "Scroll to section",
       description: "Scroll functionality to a particular page section",
       imgUrl: scroll_to_section,
-      url: "https://scroll-to-a-particular-section-q834ff9if-milen-s-projects.vercel.app/"
+      url: "https://scroll-to-a-particular-section.vercel.app/"
     },
     {
       title: "Star rating",
       description: "Gives a star rating from 1 to 10",
       imgUrl: star_rating,
-      url: "https://star-rating-4tsrekp4h-milen-s-projects.vercel.app/"
+      url: "https://star-rating-zeta.vercel.app/"
     },
     {
       title: "Tabs",
       description: "Displays different tabs with different content upon request",
       imgUrl: tabs,
-      url: "https://tabs-3e64p5cy6-milen-s-projects.vercel.app/"
-    },
-    {
-      title: "Onclick Outside",
-      description: "A Custom hook is used to open / close a section within given borderlines",
-      imgUrl: onclick_outside,
-      url: "https://use-on-click-outside-custom-hook-ff1xp5ino-milen-s-projects.vercel.app/"
+      url: "https://tabs-milen-s-projects.vercel.app/"
     },
     {
       title: "QR Code Generator",
       description: "Generates QR codes for different inputs",
       imgUrl: QRcode,
-      url: "https://create-qr-code-646d30a3h-milen-s-projects.vercel.app/"
+      url: "https://create-qr-code-gamma.vercel.app/"
     },
     {
       title: "Random Color Generator",
       description: "Generates random colors and show their RGB & HEX info",
       imgUrl: random_color,
-      url: "https://random-color-generator-mt5hs3kdp-milen-s-projects.vercel.app/"
+      url: "https://random-color-generator-bay.vercel.app/"
     },
     {
       title: "Windows resize",
       description: "Dynamically resizing the text upon enlarging / shrinking the screen",
       imgUrl: windows_resize,
-      url: "https://use-window-resize-cjdxs5w8k-milen-s-projects.vercel.app/"
+      url: "https://use-window-resize-theta.vercel.app/"
     },
     {
       title: "Tic Tac Toe",
       description: "Popular game for children",
       imgUrl: tic_tac_toe,
-      url: "https://tic-tac-lysn3qjjn-milen-s-projects.vercel.app/"
+      url: "https://tic-tac-toe-woad-eight.vercel.app/"
     },
     {
       title: "Tree View",
       description: "Displays a Tree structure of information",
       imgUrl: tree_view,
-      url: "https://tree-view-7hf218rqo-milen-s-projects.vercel.app/"
+      url: "https://tree-view-nine.vercel.app/"
+    },
+    {
+      title: "Github Profile Finder",
+      description: "Displays info about any valid github profile",
+      imgUrl: github_finder,
+      url: "https://github-profile-finder-zeta-seven.vercel.app"
+    },
+    {
+      title: "Load more data",
+      description: "Loading more data functionality",
+      imgUrl: load_more,
+      url: "https://load-more-data.vercel.app"
+    },
+    {
+      title: "Scroll to Top and Bottom",
+      description: "Simple scrolling to Top and Bottom functionality",
+      imgUrl: scroll_top_bottom,
+      url: "https://scroll-to-top-and-bottom-milendonevv-milen-s-projects.vercel.app"
+    },
+    {
+      title: "Click Outside",
+      description: "Using custom hook to close onClick outside a box",
+      imgUrl: click_outside,
+      url: "https://use-on-click-outside-custom-hook.vercel.app"
     },
   ];
   
@@ -116,7 +137,7 @@ export const Projects = () => {
       title: "Expense Tracker",
       description: "Calculates the income, expenses and keeps track of your current balance",
       imgUrl: expense_tracker,
-      url: "https://expense-tracker-mafpm0s4f-milen-s-projects.vercel.app/"
+      url: "https://expense-tracker-ruby-zeta.vercel.app"
     },
     {
       title: "Weather App",
@@ -131,7 +152,7 @@ export const Projects = () => {
       title: "ReactVenture",
       description: "Travel forum - like a post, then register in order to use the app",
       imgUrl: project_2_img,
-      url: "https://github.com/ReactProjectA58/ReactVenture"
+      url: "https://https://reactprojecta58.github.io/ReactVenture/"
       // https://react-venture-9i4mpqb1o-milen-s-projects.vercel.app/ - fix the project before displaying it
       
     },
