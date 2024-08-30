@@ -7,6 +7,7 @@ import { Contact } from './components/Contact.js';
 import { Footer } from './components/Footer.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
+import { AboutMe } from './components/AboutMe.js';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <AboutMe />
       <Contact />
       <Footer />
     </div>
