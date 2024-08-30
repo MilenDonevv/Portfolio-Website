@@ -645,6 +645,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+.footer .social-icons-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .social-icon {
+  margin-bottom: 10px; 
+}
+
+.footer .social-icon a {
+  margin: 0 10px; 
+}
+
+.footer .footer-text {
+  margin-top: 10px; 
+}
 
 
 .about-experience-container {
@@ -692,7 +709,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.6;
 }
 
-/* About Me Section */
 .about-me-section {
   flex: 1;
   margin-right: 20px;
@@ -701,7 +717,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   color: #ffffff;
-  margin-top: 10px; /* Adjust the top margin to move the box down */
+  margin-top: 10px; 
 }
 
 .about-me-container {
@@ -711,7 +727,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  min-height: 400px; /* Set a minimum height for better alignment */
+  min-height: 400px; 
 }
 
 .about-me-image img {
@@ -741,4 +757,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: 20px;
   }
 }
+
+
 
