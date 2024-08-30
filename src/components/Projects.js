@@ -153,8 +153,6 @@ export const Projects = () => {
       description: "Travel forum - like a post, then register in order to use the app",
       imgUrl: project_2_img,
       url: "https://https://reactprojecta58.github.io/ReactVenture/"
-      // https://react-venture-9i4mpqb1o-milen-s-projects.vercel.app/ - fix the project before displaying it
-      
     },
     {
       title: "PlanPal",
@@ -165,7 +163,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="projects" id="projects">
       <Container>
         <Row>
           <Col>
@@ -205,7 +203,6 @@ export const Projects = () => {
                           url={project.url}
                         />
                       );
-                      // <button onClick={handleClick} style={{ cursor: "pointer"}}>Check it</button>
                     })}
                   </Row>
                 </Tab.Pane>
