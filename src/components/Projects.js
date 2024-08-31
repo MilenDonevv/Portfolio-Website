@@ -143,7 +143,7 @@ export const Projects = () => {
       title: "Weather App",
       description: "Displays the weather info about a given city",
       imgUrl: weather_app,
-      url: "https://weather-bk3lnndna-milen-s-projects.vercel.app/"
+      url: "https://weather-app-phi-six-93.vercel.app/"
     },
   ];
 

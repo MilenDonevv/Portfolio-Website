@@ -69,3 +69,24 @@ app.get("*", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is online on port: ${PORT}`);
 });
+
+
+/* 
+
+package.json 
+
+  "scripts": {
+    "start": "react-scripts start --disable-host-check",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
+
+  vercel.json
+
+  {
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  }
+
+*/
