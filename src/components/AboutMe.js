@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "./Experience.js";
-import Me from '../assets/img/Me_2.png'
+import Me from '../assets/img/me.png'
 
 export const AboutMe = () => {
   return (

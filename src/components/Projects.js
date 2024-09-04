@@ -150,13 +150,13 @@ export const Projects = () => {
   const advancedProjects = [
     {
       title: "ReactVenture",
-      description: "Travel forum - like a post, then register in order to use the app",
+      description: "Travel forum - only registered users can use all the app functionalities.",
       imgUrl: project_2_img,
       url: "https://reactprojecta58.github.io/ReactVenture/"
     },
     {
       title: "PlanPal",
-      description: "Planning & Organizing Events Application",
+      description: "Planning & Organizing Events Application - only registered users can use all the app functionalities.",
       imgUrl: project_1_img,
       url: "https://reactprojecta58.github.io/PlanPal/"
     },
