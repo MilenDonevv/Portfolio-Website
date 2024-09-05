@@ -6,18 +6,12 @@ import { Projects } from './components/Projects.js';
 import  { Contact }   from './components/Contact2.js';
 import { Footer } from './components/Footer.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect } from 'react';
 import { AboutMe } from './components/AboutMe.js';
 
 
 
 function App() {
 
-  useEffect(() => {
-    fetch('/api')
-    .then((res) => res.json())
-    .then((data) => {console.log(data)})
-  }, [])
 
   return (
     <div className="App">

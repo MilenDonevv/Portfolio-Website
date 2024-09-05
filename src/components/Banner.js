@@ -3,13 +3,18 @@ import Container from "react-bootstrap/esm/Container";
 import { Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
-import 'animate.css';
+import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Telerik Graduate.", "Junior Frontend Developer.", "React Enthusiast.", "Passionate learner."];
+  const toRotate = [
+    "Telerik Graduate.",
+    "Junior Frontend Developer.",
+    "React Enthusiast.",
+    "Passionate learner.",
+  ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 200;
@@ -53,18 +58,30 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
-            {({ isVisible }) => 
-            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-              <span className="tagline">Welcome to my Portfolio</span>
-              <h1>
-                {`My name is Milen and I am a `}
-                <span className="wrap">{text}</span>
-              </h1>
-              {/* <p>My passions are: 1. 2. 3. 4. 5.</p> */}
-              <button onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth'} )}>
-                Let's connect <ArrowRightCircle size={25} />
-              </button>
-              </div>}
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h1>
+                    {`My name is Milen and I am a `}
+                    <span className="wrap">{text}</span>
+                  </h1>
+
+                  <button
+                    className="mobile-connect-btn"
+                    onClick={() =>
+                      document
+                        .getElementById("connect")
+                        .scrollIntoView({ behavior: "smooth" })
+                    }
+                  >
+                    Let's connect <ArrowRightCircle size={25} />
+                  </button>
+                </div>
+              )}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>

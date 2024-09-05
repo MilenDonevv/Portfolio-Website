@@ -79,7 +79,7 @@ export const NavBar = () => {
                             </a>
                         </div>
                         <button 
-                            className="vvd btn btn-primary mt-3 mt-lg-0 ms-lg-3 d-none d-lg-block"  // Hides on mobile, shows on large screens
+                            className="vvd btn btn-primary mt-3 mt-lg-0 ms-lg-3 d-none d-lg-block"  
                             onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth' })}
                         >
                             <span>Let's Connect</span>
