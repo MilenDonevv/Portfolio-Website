@@ -184,7 +184,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="basic">Basic</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="intermediate">Intermediate</Nav.Link>
+                  <Nav.Link eventKey="intermediate">Medium</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="advanced">Advanced</Nav.Link>
