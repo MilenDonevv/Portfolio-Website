@@ -71,9 +71,6 @@ export const NavBar = () => {
                             <a href="https://github.com/MilenDonevv" target="_blank" rel="noopener noreferrer">
                                 <img src={nav_icon2} alt="GitHub" />
                             </a>
-                            <a href="https://www.facebook.com/Milen.Donev95" target="_blank" rel="noopener noreferrer">
-                                <img src={nav_icon3} alt="Facebook" />
-                            </a>
                             <a href="https://milendonevv.github.io/Portfolio-Website/assets/Milen_Donev_CV.pdf" target="_blank" rel="noopener noreferrer">
                                 <img src={DOWNLOAD_icon} alt="Download CV" />
                             </a>
