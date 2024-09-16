@@ -16,6 +16,9 @@ import NPM_icon from '../assets/img/NPM_icon.svg'
 import REACT_icon from '../assets/img/REACT_icon.svg'
 import TAILWIND_icon from '../assets/img/TAILWIND_icon.svg'
 import colorSharp from '../assets/img/color_sharp.png';
+import TYPESCRIPT_icon from '../assets/img/TYPESCRIPT_icon.svg'
+import POSTMAN_icon from '../assets/img/POSTMAN_icon.svg'
+import VITE_icon from '../assets/img/VITE_icon.svg'
 
 
 export const Skills = () => {
@@ -66,11 +69,15 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                     <img src={JAVASCRIPT_icon} alt="Javascript" />
-                                    <h5>Javascript</h5>
+                                    <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
                                     <img src={REACT_icon} alt="React" />
                                     <h5>React</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={TYPESCRIPT_icon} alt="Typescript" />
+                                    <h5>TypeScript</h5>
                                 </div>
                                 <div className="item">
                                     <img src={NPM_icon} alt="NPM" />
@@ -91,6 +98,14 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={MONGODB_icon} alt="MongoDB" />
                                     <h5>MongoDB</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={POSTMAN_icon} alt="Postman" />
+                                    <h5>Postman</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={VITE_icon} alt="Vite" />
+                                    <h5>Vite</h5>
                                 </div>
                                 <div className="item">
                                     <img src={JEST_icon} alt="Jest" />

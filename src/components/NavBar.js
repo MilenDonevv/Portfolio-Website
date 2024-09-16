@@ -2,11 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useEffect, useState } from "react";
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logo_25.PNG';
 import nav_icon1 from '../assets/img/nav_icon1.svg';
 import nav_icon2 from '../assets/img/icons8-github-64.svg';
-import nav_icon3 from '../assets/img/nav_icon2.svg';
-import DOWNLOAD_icon from '../assets/img/DOWNLOAD_icon.svg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -34,7 +32,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo" style={{ maxHeight: '50px' }} />
+                <img src={logo} alt="Logo" style={{ height: '75px', width: '75px', objectFit: 'cover' }} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -70,9 +68,6 @@ export const NavBar = () => {
                             </a>
                             <a href="https://github.com/MilenDonevv" target="_blank" rel="noopener noreferrer">
                                 <img src={nav_icon2} alt="GitHub" />
-                            </a>
-                            <a href="https://milendonevv.github.io/Portfolio-Website/assets/Milen_Donev_CV.pdf" target="_blank" rel="noopener noreferrer">
-                                <img src={DOWNLOAD_icon} alt="Download CV" />
                             </a>
                         </div>
                         <button 

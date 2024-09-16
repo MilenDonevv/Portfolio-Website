@@ -10,7 +10,9 @@ export const AboutMe = () => {
           <h2 className="about-me-title">About me</h2>
           <p className="about-me-text">
             From an early age, I’ve been fascinated by how technology works, 
-            but it wasn’t until recently that I had the opportunity to delve deeper into this passion of mine. 
+            but it wasn’t until 2023 that I had the opportunity to go deeper in some introductory
+            tutorials and created my first CV using nothing but HTML. I was immediately captivated by the 
+            way code is developed and realized it's high time I take on this passion of mine seriously. 
             With the ever-growing importance of our technological advancements in this increasingly digital future, 
             I’ve come to believe that working in the tech domain is more crucial than ever.</p>
             

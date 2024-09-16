@@ -80,6 +80,13 @@ export const Banner = () => {
                   >
                     Let's connect <ArrowRightCircle size={25} />
                   </button>
+                  <a
+                  href="https://milendonevv.github.io/Portfolio-Website/assets/Milen_Donev_CV.pdf"
+                    download
+                    className="btn btn-primary mt-3"
+                  >
+                    Download CV
+                  </a>
                 </div>
               )}
             </TrackVisibility>

@@ -20,6 +20,7 @@ import click_outside from '../assets/img/click_outside_icon.PNG'
 import project_1_img from "../assets/img/project_1_img.png";
 import project_2_img from "../assets/img/project_2_img.png";
 import load_more from "../assets/img/load_more_products_icon.PNG";
+import ToDoList_icon from "../assets/img/typescript_project_icon.PNG";
 import { ProjectCard } from "./ProjectCard";
 import color_sharp2 from "../assets/img/color_sharp2.png";
 import TrackVisibility from "react-on-screen";
@@ -32,7 +33,13 @@ export const Projects = () => {
       title: "Accordion",
       description: "Showing and hiding different sections",
       imgUrl: accordion,
-      url: "https://accordion-livid-five.vercel.app"
+      url: "https://accordion-livid-five.vercel.app/"
+    },
+    {
+      title: "To Do List",
+      description: "Built with Typescript",
+      imgUrl: ToDoList_icon,
+      url: "https://10-typescript-project-1.vercel.app/"
     },
     {
       title: "Image Slider",
