@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.20405106.css",
-    "main.js": "/Portfolio-Website/static/js/main.e19536dd.js",
+    "main.js": "/Portfolio-Website/static/js/main.b044b12e.js",
     "static/js/453.298f5782.chunk.js": "/Portfolio-Website/static/js/453.298f5782.chunk.js",
     "static/media/image_slider_icon.PNG": "/Portfolio-Website/static/media/image_slider_icon.cb6e09141ddb3f2026c8.PNG",
     "static/media/project_2_img.png": "/Portfolio-Website/static/media/project_2_img.29d0403a7173f2736800.png",
     "static/media/color_sharp.png": "/Portfolio-Website/static/media/color_sharp.bea361cfef80fefc2d1e.png",
     "static/media/color_sharp2.png": "/Portfolio-Website/static/media/color_sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/project_1_img.png": "/Portfolio-Website/static/media/project_1_img.6c779040c51a5dc3eb95.png",
+    "static/media/shopping-cart-vercel2.PNG": "/Portfolio-Website/static/media/shopping-cart-vercel2.3a9304a49db713b1a072.PNG",
     "static/media/load_more_products_icon.PNG": "/Portfolio-Website/static/media/load_more_products_icon.192f2ccc4bc91e24d96e.PNG",
     "static/media/logo_25.PNG": "/Portfolio-Website/static/media/logo_25.be43276217e3dd667a7b.PNG",
     "static/media/banner-bg.png": "/Portfolio-Website/static/media/banner-bg.cc1273af450504afe755.png",
@@ -60,11 +61,11 @@
     "static/media/HTML_icon.svg": "/Portfolio-Website/static/media/HTML_icon.b047157bd120c9f0da75a7e7c5e07611.svg",
     "static/media/NPM_icon.svg": "/Portfolio-Website/static/media/NPM_icon.1b985b974cc9c538c9b6ba9634bbdef7.svg",
     "main.20405106.css.map": "/Portfolio-Website/static/css/main.20405106.css.map",
-    "main.e19536dd.js.map": "/Portfolio-Website/static/js/main.e19536dd.js.map",
+    "main.b044b12e.js.map": "/Portfolio-Website/static/js/main.b044b12e.js.map",
     "453.298f5782.chunk.js.map": "/Portfolio-Website/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20405106.css",
-    "static/js/main.e19536dd.js"
+    "static/js/main.b044b12e.js"
   ]
 }
