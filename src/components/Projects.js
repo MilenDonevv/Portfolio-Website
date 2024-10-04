@@ -20,6 +20,7 @@ import click_outside from '../assets/img/click_outside_icon.PNG'
 import project_1_img from "../assets/img/project_1_img.png";
 import project_2_img from "../assets/img/project_2_img.png";
 import load_more from "../assets/img/load_more_products_icon.PNG";
+import shopping_cart from "../assets/img/shopping-cart-vercel2.PNG";
 import ToDoList_icon from "../assets/img/typescript_project_icon.PNG";
 import { ProjectCard } from "./ProjectCard";
 import color_sharp2 from "../assets/img/color_sharp2.png";
@@ -151,6 +152,12 @@ export const Projects = () => {
       description: "Displays the weather info about a given city",
       imgUrl: weather_app,
       url: "https://weather-app-phi-six-93.vercel.app/"
+    },
+    {
+      title: "Shopping Cart",
+      description: "A simple shopping Cart built with Typescript",
+      imgUrl: shopping_cart,
+      url: "https://15-typescript-project-2-milendonevv-milen-s-projects.vercel.app/"
     },
   ];
 
