@@ -35,3 +35,7 @@ To run this project locally, clone the repository and follow these steps:
 
    ```bash
    git clone https://github.com/MilenDonevv/Portfolio-Website.git
+
+
+
+  --> Updating & re-deploying the new changes - npm run deploy
