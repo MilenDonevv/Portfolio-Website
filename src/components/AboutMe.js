@@ -14,7 +14,7 @@ export const AboutMe = () => {
             tutorials and created my first CV using nothing but HTML. I was immediately captivated by the 
             way code is developed and realized it's high time I take on this passion of mine seriously. 
             With the ever-growing importance of our technological advancements in this increasingly digital future, 
-            I’ve come to believe that working in the tech domain is more crucial than ever.</p>
+            I’ve come to believe that growing my skills in the tech domain is more crucial than ever.</p>
             
           <p className="about-me-text">
             Outside of coding, I enjoy working out, socializing with people,
